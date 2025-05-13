@@ -3,7 +3,7 @@ class_name Candle
 
 @export var candle_height: float = 2
 @export var candle_radius: float = 1
-@export var green_or_red: bool = true
+@export var green_or_red: bool = false
 
 @export var green: StandardMaterial3D
 @export var red: StandardMaterial3D
@@ -17,7 +17,7 @@ func set_sizes() -> void:
 	$candle.mesh.top_radius = candle_radius
 	$candle.mesh.bottom_radius = candle_radius
 	$candle.mesh.height = candle_height
-	$candle.mesh.material = green if green_or_red else red
+	$candle.mesh.material = green
 	$collisionShape.shape.radius = candle_radius
 	$collisionShape.shape.height = candle_height
 	$stick.mesh.height = candle_height + 2.0

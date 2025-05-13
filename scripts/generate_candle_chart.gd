@@ -16,14 +16,25 @@ func _run() -> void:
 		candle_chart.remove_child(child)
 
 	var candleTemplate = preload("res://objects/candle.tscn")
-
-	for i in range(0,10):
+	
+	
+	var last_position = Vector3()
+	var up = 1
+	for i in range(0,35):
 		var green_or_red: bool = (i % 2 == 0)
 		var new_node = candleTemplate.instantiate()
 		new_node.name = "Candle #"+str(i)
 		print("Added '"+new_node.name+"' to CandleChart.")
-		new_node.position.x += 4*i
-		new_node.position.z += (i % 2)*2
+		
+		up = up if randf() > 0.3 else (up * -1)
+		
+		new_node.position = Vector3(last_position)
+		new_node.position.x += randf_range(2.5, 5)
+		new_node.position.z += randf_range(-2,2)
+		new_node.position.y += randf_range(0,1.5)*up
+		
+		last_position = new_node.position
+		
 		new_node.candle_height = 2 + (1%2)*1
 		new_node.candle_radius = 1
 		new_node.green_or_red = green_or_red

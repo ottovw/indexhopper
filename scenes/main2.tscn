@@ -72,74 +72,268 @@ transform = Transform3D(1.56209, -1.37982, 1.71508, 1.97375, 1.80907, -0.342241,
 [node name="Node3D" type="Node3D" parent="World"]
 
 [node name="CandleChart" type="Node3D" parent="World"]
-transform = Transform3D(-0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -6.3372, 0, -3.60525)
+transform = Transform3D(-0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -3.98289, 0, -1.36575)
 
 [node name="Candle #0" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.55786, -1.4842, -1.54527)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #1" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.10557, -2.24603, 0.286191)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #2" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5649, -2.16389, 0.233139)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #3" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.0967, -0.81246, -0.882784)
 script = ExtResource("9_n7sna")
-candle_height = 4.0
+candle_height = 3
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #4" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.3984, -0.152051, -1.76062)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #5" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7731, -1.18255, -0.249941)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #6" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.5685, -0.0437727, -1.17324)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #7" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.1961, -0.989756, -0.763027)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #8" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.1287, -0.369875, -1.06698)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
 [node name="Candle #9" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36, 0, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.7668, -0.547431, -0.105346)
 script = ExtResource("9_n7sna")
-candle_height = 2.1
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #10" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.4177, -1.68685, 1.45426)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #11" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.6373, -1.14118, 0.797976)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #12" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.3326, -1.1356, -0.314324)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #13" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.8932, -0.767739, -0.316885)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #14" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.2756, -1.86344, 1.61246)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #15" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.4024, -2.82945, 3.39516)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #16" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.9529, -4.0512, 3.21432)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #17" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.8958, -4.34284, 2.33404)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #18" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.9268, -4.27943, 2.73367)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #19" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 75.8137, -4.32517, 3.10573)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #20" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.4046, -3.56436, 1.74101)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #21" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.0436, -3.63224, 1.30748)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #22" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.6593, -3.77619, -0.627146)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #23" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90.0078, -3.72664, -1.6393)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #24" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.6018, -2.9515, -3.44949)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #25" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 97.831, -1.66764, -1.50143)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #26" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 101.155, -1.60112, -1.1228)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #27" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.058, -1.06804, -2.10704)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #28" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.563, 0.238105, -2.35086)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #29" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 112.067, 1.2437, -3.052)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #30" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.852, 0.580283, -4.64714)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #31" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 118.156, -0.398595, -6.28637)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #32" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.986, -0.2646, -5.24486)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #33" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.614, 0.495316, -6.09509)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green = SubResource("StandardMaterial3D_ufxso")
+red = SubResource("StandardMaterial3D_p44qw")
+
+[node name="Candle #34" type="StaticBody3D" parent="World/CandleChart" instance=ExtResource("11_hdp6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 130.554, 0.850542, -6.2803)
+script = ExtResource("9_n7sna")
+candle_height = 3
+green_or_red = true
 green = SubResource("StandardMaterial3D_ufxso")
 red = SubResource("StandardMaterial3D_p44qw")
 
