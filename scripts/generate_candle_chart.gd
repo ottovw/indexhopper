@@ -21,12 +21,13 @@ func _run() -> void:
 	var last_position = Vector3()
 	var up = 1
 	for i in range(0,35):
-		var green_or_red: bool = (i % 2 == 0)
+		
 		var new_node = candleTemplate.instantiate()
 		new_node.name = "Candle #"+str(i)
 		print("Added '"+new_node.name+"' to CandleChart.")
 		
 		up = up if randf() > 0.3 else (up * -1)
+		var green_or_red: bool = up > 0
 		
 		new_node.position = Vector3(last_position)
 		new_node.position.x += randf_range(2.5, 5)
@@ -35,8 +36,8 @@ func _run() -> void:
 		
 		last_position = new_node.position
 		
-		new_node.candle_height = 2 + (1%2)*1
-		new_node.candle_radius = 1
+		new_node.candle_height = randf_range(1, 2)
+		new_node.candle_radius = randf_range(0.8, 1.5)
 		new_node.green_or_red = green_or_red
 		candle_chart.add_child(new_node)
 		new_node.owner = candle_chart.owner  # Important: ensures the node is saved in the scene
