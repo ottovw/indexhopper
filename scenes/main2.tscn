@@ -2,14 +2,14 @@
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_rnmu4"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_m7r7h"]
-[ext_resource type="Script" path="res://scripts/view.gd" id="3_03a1i"]
+[ext_resource type="Script" uid="uid://bjy2vg8gvw4ua" path="res://scripts/view.gd" id="3_03a1i"]
 [ext_resource type="PackedScene" uid="uid://rjh4ifidqrfp" path="res://objects/platform_medium.tscn" id="5_5sx6s"]
 [ext_resource type="LabelSettings" uid="uid://bif3cs7tw880f" path="res://scenes/font.tres" id="10_2f6l4"]
 [ext_resource type="PackedScene" uid="uid://dy017k58p20sk" path="res://objects/cloud.tscn" id="10_ar3tw"]
-[ext_resource type="Script" path="res://scripts/timer.gd" id="10_fjmrd"]
+[ext_resource type="Script" uid="uid://t6x6p1pp2pni" path="res://scripts/timer.gd" id="10_fjmrd"]
 [ext_resource type="PackedScene" uid="uid://bl3ulj8d6gnun" path="res://objects/candle.tscn" id="11_hdp6c"]
 [ext_resource type="PackedScene" uid="uid://bab85um0y2qnw" path="res://models/logo.gltf" id="11_qoiod"]
-[ext_resource type="Script" path="res://scripts/hud.gd" id="12_ghe5t"]
+[ext_resource type="Script" uid="uid://co5mej1wsj8ox" path="res://scripts/hud.gd" id="12_ghe5t"]
 [ext_resource type="Texture2D" uid="uid://cd7oyc56ehkx1" path="res://sprites/coin.png" id="13_6kgbq"]
 
 [node name="Main" type="Node3D"]
