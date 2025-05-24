@@ -8,9 +8,19 @@ class_name Candle
 @export var green: StandardMaterial3D
 @export var red: StandardMaterial3D
 
+var random_number = RandomNumberGenerator.new()
+
+@export var top = 1.0
+@export var bottom = 1.0
+@export var up = true
+@export var speed = 0
+var base_position: Vector3
+	
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	set_sizes()
+	start_moving()
+	base_position = Vector3(position)
 	pass # Replace with function 
 
 func set_sizes() -> void:
@@ -32,4 +42,20 @@ func set_sizes() -> void:
 	$candle.mesh = mesh
 	$stick.mesh = stickMesh
 	$collisionShape.shape = shape
+
+func start_moving():
+	up = true if randf() < 0.5 else false
+	speed = randf_range(0.1, 1.5)
+
+func _process(delta):
 	
+	if up: 
+		if position.y < base_position.y + top:
+			position.y += delta*speed
+		else:
+			up = !up
+	else:
+		if position.y > base_position.y - bottom:
+			position.y -= delta*speed
+		else:
+			up = !up

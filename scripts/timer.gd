@@ -24,3 +24,13 @@ func _on_Timer_timeout():
 	var time_str = "%02d:%02d:%02d" % [hours, minutes, seconds]
 	# Update the label
 	text = time_str
+
+
+func _on_area_3d_body_entered(body: Node3D) -> void:
+	if body.name == "Player":
+		timer.stop()
+		var font = label_settings.duplicate()
+		font.font_color = Color.RED
+		font.font_size = 96
+		label_settings = font
+		

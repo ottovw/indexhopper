@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqq36xjo416j2"]
+
+[ext_resource type="Script" uid="uid://ob0s426qy7jp" path="res://objects/rocket.gd" id="1_bmpja"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5wfx6"]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+blend_mode = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_bmpja"]
+material = SubResource("StandardMaterial3D_5wfx6")
+size = Vector2(0.2, 0.2)
+
+[node name="Rocket" type="RigidBody3D"]
+script = ExtResource("1_bmpja")
+
+[node name="CPUParticles3D" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00177956, 0.0249162, -0.0164828)
+lifetime = 0.37
+mesh = SubResource("QuadMesh_bmpja")
+direction = Vector3(0, -1, 0)
+spread = 10.0
+initial_velocity_min = 4.0
+initial_velocity_max = 5.0
